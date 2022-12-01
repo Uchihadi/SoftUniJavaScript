@@ -16,3 +16,4 @@ password.addEventListener('blur', (event) => {
 button.addEventListener('click', () => {
     password.removeEventListener('focus', focusEvent);
 });
+
