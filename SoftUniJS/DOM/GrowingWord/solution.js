@@ -1,7 +1,7 @@
 function growingWord() {
   const growingWord = document.querySelector('#exercise > p');
-  let initialPx = 2;
-  const colors = {
+  let initialPx = 2; // let = signal that variable may be reassigned
+  const colors = { // const = signal that identifier will not be reassigned
     'blue' : 'green',
     'green' : 'red',
     'red' : 'blue'
